@@ -7,7 +7,7 @@ void setup() {
   lcd.begin(16, 2);
   Serial.begin(9600);
   lcd.clear();
-  lcd.print("w Polsce");
+  lcd.print("in Poland");
 }
 
 void loop() {
@@ -21,7 +21,7 @@ void loop() {
   }
   if(licznik > 10){
     lcd.clear();
-      lcd.print("w Polsce");
+      lcd.print("In Poland");
 Serial.print("wyczyściłem");
 licznik = 0;
   }
