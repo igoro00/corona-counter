@@ -1,5 +1,5 @@
 # corona-counter
-Arduino project who download and display number of infected by covid-19
+Arduino project which downloads and displays a number of infected by covid-19
 # necessary things
 screen for arduino which uses the library liquid crystal eg.
 https://botland.com.pl/pl/wyswietlacze-alfanumeryczne-i-graficzne/3335-wyswietlacz-lcd-2x16-znakow-zielony-ze-zlaczami.html?search_query=2x16&results=40
