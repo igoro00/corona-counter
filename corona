@@ -1,7 +1,7 @@
 #!/bin/sh
 stty -F /dev/ttyACM1 -hupcl
 while sleep 20; do
-data=$(curl -s https://corona.lmao.ninja/countries/Poland)
+data=$(curl -s https://corona.lmao.ninja/v2/countries/Poland)
 infected="${data#*cases\":}"
     echo "Wysłano"
 echo "${infected%%,*}" > /dev/ttyACM1
