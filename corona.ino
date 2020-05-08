@@ -1,7 +1,7 @@
 // include the library code:
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7);
-
+ int licznik = 0;
 void setup() {
   lcd.begin(16, 2);
   Serial.begin(9600);
